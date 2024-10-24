@@ -20,6 +20,14 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 		<MainLayout mainMenu={mainMenu} footerMenu={footerMenu} basicSettings={basicSettings}>
 			<div className='container'>
 				<MainPageSlider />
+				/*
+				<div className="row">
+					<nav className="col-lg-3 d-none d-lg-block">
+						{mainMenu && <VverticalMenu menuList={headMenu}/>}
+					</nav>
+					
+				</div>
+				*/
 				<div className='row'>
 					<nav className='col-lg-3 d-none d-lg-block'>
 						{mainMenu && <VerticalMenu menuList={mainMenu} />}
